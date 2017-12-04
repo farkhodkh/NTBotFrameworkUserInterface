@@ -22,10 +22,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="JavaFxApplication" />
+        <module name="NTBotFrameworkUserInterface" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
-      <module name="JavaFxApplication" target="1.8" />
+      <module name="NTBotFrameworkUserInterface" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

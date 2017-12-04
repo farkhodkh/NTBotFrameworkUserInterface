@@ -29,8 +29,8 @@ public class DBService {
 
         configuration.setProperty("hibernate.dialect", "org.hibernate.dialect.SQLServer2012Dialect");
         configuration.setProperty("hibernate.connection.driver_class", "com.microsoft.sqlserver.jdbc.SQLServerDriver");
-        configuration.setProperty("hibernate.connection.url", "jdbc:sqlserver://localhost:1433/QUESTIONSANDANSWERS");
-        configuration.setProperty("hibernate.connection.username", "saadmin");
+        configuration.setProperty("hibernate.connection.url", "jdbc:sqlserver://DESKTOP-IHURLCE;databaseName=ntbotframework");
+        configuration.setProperty("hibernate.connection.username", "sa");
         configuration.setProperty("hibernate.connection.password", "19820809");
         configuration.setProperty("hibernate.show_sql", hibernate_show_sql);
         configuration.setProperty("hibernate.hbm2ddl.auto", hibernate_hbm2ddl_auto);
